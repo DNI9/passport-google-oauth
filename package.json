@@ -1,0 +1,20 @@
+{
+  "name": "passportjs-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "DNI9",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "dependencies": {
+    "cookie-session": "^1.4.0",
+    "dotenv": "^9.0.2",
+    "express": "^4.17.1",
+    "passport": "^0.4.1",
+    "passport-google-oauth20": "^2.0.0"
+  }
+}
